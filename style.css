@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Bebas Neue', cursive, 'Roboto', sans-serif;
+}
+section {
+    height: 400px;
+    padding-bottom: 250px;
+}
+h1 {
+    font-size: 80px;
+    color: #363958;
+}
+h2 {
+    color: #363958;
+    font-size: 48px;
+    font-weight: bolder;
+}
+h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+    line-height: 1.5;
+}
+h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #364858;
+}
+h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #5183b1dc;
+}
+p {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3E3E3E;
+}
+.group {
+    margin-top: 100px;
+}
+.group-sub {
+    margin: 10px 0px;
+}
+.highlight {
+    color: #FF8367;
+}
+.link-button {
+    font-family: Roboto;
+    background-image: linear-gradient(180deg, #FF8063, #ff8e74d2);
+    border-radius: 5px;
+    padding: 20px 15px;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 170px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header-section {
+    height: 20px;
+    padding: 50px 5% 80px;
+}
+.header-nav {
+    float: right;
+}
+.header-nav ul{
+    list-style-type: none;
+}
+.header-nav ul li{
+    float: left;
+    padding-left: 20px;
+}
+.header-nav ul li a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C3C3C;
+    text-decoration: none;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img {
+    width: 100%;
+}
+.project-section {
+    background-color: #E5E5E5;
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    margin: 50px auto;
+}
+.column-three {
+    width: 25%;
+    display: inline-block;
+    margin: 80px 10px;
+    padding: 10px;
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    border-radius: 19.7436px;
+    background: #FFFFFF;
+    text-align: left;
+}
+.column-three img {
+    width: 100%;
+}
+.inquery-section {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+.query-box {
+    display: inline-block;
+    padding: 75px 0px;
+    width: 900px;
+    height: 225px;
+    background-image: url("images/ddd.png");
+    background-repeat: no-repeat;
+}
+.highlight-white {
+    color: #FFFFFF;
+    float: left;
+    margin-left: 50px;
+}
+#chat-button {
+    float: right;
+    margin-top: 0px;
+    margin-right: 50px;
+    width: 135px;
+}
+
+.contact-section {
+    height: 700px;
+    text-align: center;
+    padding: 80px 60px;
+}
+.contact-content {
+    width: 100%;
+    height: 500px;
+    padding: 40px 0px;
+    box-shadow: 10px 10px 40px gray;
+}
+.contact {
+    float: left;
+    display: inline-block;
+    text-align: center;
+    /* margin: 0 auto; */
+}
+.contact-primary {
+    width: 60%;
+    margin-left: 2%;
+}
+.contact-primary input, textarea {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0,0,0,.2);
+    color: rgba(69, 218, 32, 0.794);
+    border-bottom: 1px solid rgba(255,255,255,.07);
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+}
+.contact-primary input[type="submit"] {
+    text-transform: uppercase;
+    width: 30%;
+    float: left;
+}
+.contact-primary textarea {
+    padding-top: 15px;
+}
+.contact-secondary {
+    width: 30%;
+    margin-left: 5%;
+    text-align: left;
+}
+.contact-wrapper {
+    padding-top: 45px;
+}
+footer {
+    text-align: center;
+    line-height: 1.5;
+}
+footer p {
+    color: #696871;
+}
+footer span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #363958;
+    display: block;
+    margin-top: 20px;
+}
+footer i {
+    margin-left: 20px;
+}
+footer i img {
+    width: 40px;
+    height: 40px;
+}
+footer .footer-icon {
+    padding-top: 20px;
+}
